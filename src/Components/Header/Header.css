@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+.main_nav_bar{
+    background: linear-gradient(160deg,#060606,#252525) !important;
+    color: white !important;
+}
+
+
+.headeder_links{
+    width: auto;
+    padding-right: 2rem;
+    color: white !important;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    font-weight: 500;
+}
+
+.gap_stakw{
+    position: relative;
+    left: -5rem;
+}
+
+
+
+.main_header_btn{
+    background-color: #6737EE;
+    color: white;
+    font-weight: 600;
+    font-family: 'Space Grotesk', sans-serif;
+border: none;
+padding: 0.7rem 1rem;
+}
+
+
+.soical_icons{
+    color: white !important;
+    font-size: 24px ;
+}
+
+
+.logo_main_width{
+    width: 60px !important;
+    text-align: left;
+}
+
+.logo_main_width img {
+    width: 64px;
+   
+}
+
+
+/* body{
+ background-image: url(../Assets/eth_bg.png
+ );
+
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+} */
+
+
+
+@media only screen and (max-width:600px){
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center !important;
+    }
+
+    .tree_btn {
+        flex-direction: column !important;
+    }
+    .gap_stakw{
+        position: static !important;
+    }
+    .logo_main_width img {
+        position: static !important;
+    }
+}

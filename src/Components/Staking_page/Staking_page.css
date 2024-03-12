@@ -1,0 +1,188 @@
+.main_staking_page {
+    padding: 4rem 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_box_staking {
+    border-radius: 15px;
+    padding: 20px 30px;
+    border: 2px solid #6737EE;
+    background-color: rgb(23 23 23/1);
+    /* width: 50rem; */
+}
+
+.left_int_side {
+    background-color: #208480;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white !important;
+
+}
+
+.main_box_staking h1 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    text-align: center;
+}
+
+.stk_para {
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    text-align: center;
+}
+
+
+.ab_stk {
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    font-size: 14px;
+}
+
+.tota_de {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    /* color: #6737EE  ; */
+
+}
+
+.rewards {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem !important;
+}
+
+
+.re_inves {
+    height: 2.8em;
+    border: 2px solid #6737EE;
+    width: 100%;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    background-color: transparent;
+    border-radius: 20px;
+
+}
+
+.with_drea {
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+}
+
+.how_stkae {
+    color: #6737EE!important;
+}
+
+.new_clr {
+    color: #6737EE!important;
+
+}
+
+
+
+
+
+.connnect_wallet_stk {
+    background-color: #6737EE;
+    height: 2.8em;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+
+
+}
+
+.stkk_inpu {
+    background-color: #6737EE;
+    padding: 10px 30px;
+    border: none;
+    color: rgb(229, 229, 229);
+    font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
+
+
+}
+
+
+.allowance_btn {
+    background-color: #6737EE;
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: rgb(229, 229, 229);
+    font-family: 'Space Grotesk', sans-serif;
+    border: none;
+    border-radius: 20px;
+
+}
+
+
+.stk_max {
+    background-color: #38A1E8;
+    border: none;
+    color: rgb(229, 229, 229);
+    font-weight: 700;
+    padding: 0px 30px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+::placeholder {
+    color: rgb(229, 229, 229);
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.stkk_inpu:focus {
+    border: 1px solid #208480;
+    outline: #208480;
+}
+
+
+.main_box_staking h5 {
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+    font-weight: 600;
+    text-align: center;
+}
+
+.clr_text {
+    color: rgb(229, 229, 229);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    margin-top: 1rem;
+
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+    .tota_de {
+        font-size: 15px !important;
+    }
+}

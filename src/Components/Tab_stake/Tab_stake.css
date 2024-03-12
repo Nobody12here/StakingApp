@@ -1,0 +1,377 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+
+    background-color: #6737EE!important;
+    border-radius: 20px !important;
+    padding: 0px 30px;
+    height: 1em !important;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229) !important;
+}
+
+.css-1q2h7u5.Mui-selected{
+    background-color: #6737EE!important;
+    border-radius: 20px !important;
+    padding: 0px 20px;
+    height: 1em !important;
+    font-weight: 700 !important;
+    font-family: 'Space Grotesk', sans-serif !important;
+    color: rgb(229, 229, 229) !important;
+}
+
+
+.MuiButtonBase-root {
+    color: white;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: rgb(229, 229, 229);
+}
+
+.main_div_stking{
+    margin-top: 1rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.MuiTabs-flexContainer{
+    display: flex !important;
+    justify-content: center !important;
+    border: 2px solid white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    
+    margin: 1rem 0px;
+    
+}
+
+.css-ttwr4n {
+    display: none !important;
+}
+
+
+.css-19kzrtu {
+    padding: 0px !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    background-color: transparent !important;
+}
+
+.css-1aquho2-MuiTabs-indicator{
+    display: none !important;
+}
+
+.left_int_side {
+    padding: 10px 10px !important;
+    background-color: #38A1E8;
+
+
+
+}
+
+
+@media only screen and (max-width:600px){
+    .stkk_inpu {
+        padding: 10px 15px !important;
+    }
+
+    .left_int_side {
+        padding: 10px 10px !important;
+        background-color: #38A1E8;
+
+    .MuiTableContainer-roots{
+        width:50%;
+    }
+
+    }
+    .MuiTabs-flexContainer{
+        width: 100%;
+        position:static !important;
+        margin: 1rem 0px;
+    }
+}
+
+
+.Icons_spinner {
+
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
+
+.stke_planes {
+    border: 1px solid white;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+.days_plan {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    background-color: transparent !important;
+    padding: 10px;
+}
+
+.text {
+   
+    color: white;
+
+}
+
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #ffffff;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #ffffff;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #ffffff;
+
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ffffff;
+
+}
+*::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ffffff;
+
+}
+*::placeholder {
+    /* modern browser */
+    color: #ffffff;
+    
+}
+
+/* Set the placeholder color for all input elements */
+input::placeholder {
+    color: #ffffff; /* Set the desired color */
+  }
+  
+  /* Alternatively, you can target a specific input element by its ID or class */
+  #exampleInput::placeholder {
+    color: #ffffff;
+  }
+  
+  /* Or by class */
+  .inputClass::placeholder {
+    color: #ffffff;
+  }
+
+
+.about_plan {
+    border-top: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .stke_planes {
+        padding: 2px 5px !important;
+    }
+    .about_plan {
+        padding-top: 5px !important;
+    }
+    .days_plan {
+        padding: 2px 5px;
+    }
+}
+
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.line{
+    width: 180px;
+}
+
+.css-ihc79b {
+    height: 100%;
+    margin-top: 56px;
+    width: 100%;
+}
+
+.refershBTB {
+    width: 8rem;
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.css-4hkj1c {
+    -webkit-tap-highlight-color: transparent;
+    align-items: center;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: .02857em;
+    line-height: 1.75;
+    margin: 30px 0 0;
+    min-width: 64px;
+    outline: 0;
+    padding: 4px 8px;
+    position: relative;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: background-color .25s cubic-bezier(.4,0,.2,1) 0ms,box-shadow .25s cubic-bezier(.4,0,.2,1) 0ms,border-color .25s cubic-bezier(.4,0,.2,1) 0ms,color .25s cubic-bezier(.4,0,.2,1) 0ms;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.anticon {
+    display: inline-block;
+    color: inherit;
+    font-style: normal;
+    line-height: 0;
+    text-align: center;
+    text-transform: none;
+    vertical-align: -0.125em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.anticon svg {
+    display: inline-block;
+}
+
+.css-48ybtg {
+    background: rgba(44,43,43,.3);
+    border-radius: 5px;
+    box-shadow: 0 3px 8px #596380;
+    overflow-x: auto;
+    width: 100%;
+}
+
+.css-1owb465, table {
+    border-collapse: collapse;
+}
+
+.css-1owb465 {
+    border-spacing: 0;
+    display: table;
+    width: 100%;
+}
+table {
+    border-color: inherit;
+    text-indent: 0;
+    caption-side: bottom;
+}
+
+.css-1wbz3t9 {
+    display: table-header-group;
+}
+
+tbody, td, tfoot, th, thead {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.css-1gqug66 {
+    color: inherit;
+    display: table-row;
+    outline: 0;
+    vertical-align: middle;
+}
+
+.css-1gqug66 {
+    margin-top: -1rem!important;
+}
+
+.css-1gzy9y4 {
+    border-bottom: 1px solid #e0e0e0;
+    display: table-cell;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .01071em;
+    line-height: 1.5rem;
+    padding: 16px;
+    text-align: center;
+    vertical-align: inherit;
+}
+
+.css-1xnox0e {
+    display: table-row-group;
+}
+
+.css-q34dxg {
+    color: rgba(0,0,0,.87);
+    display: table-cell;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    letter-spacing: .01071em;
+    line-height: 1.43;
+    padding: 16px;
+    text-align: left;
+    vertical-align: inherit;
+}
+
+.css-ehd0rl {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.css-o7q7an {
+    color: #fff;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: .00938em;
+    line-height: 1.5;
+    margin: 10px 0 0;
+    text-align: center;
+}
+
+.ant-btn-primary {
+    color: #fff;
+    background: #1677ff !important;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}

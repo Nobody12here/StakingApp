@@ -1,0 +1,18 @@
+.App{
+    background-image: url('./Components/Assets/eth_bg.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: -0;
+   }
+   .overlay{
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.2);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+   }
