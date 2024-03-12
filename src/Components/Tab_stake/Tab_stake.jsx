@@ -592,7 +592,7 @@ export default function Tab_stake({ Token_BalanceOF }) {
                   )}
                 </button>
                 <a
-                  href="https://docs.intelliquantcoin.com/usdinqu-staking/how-to-stake"
+                  href=""
                   target="_blank"
                   className="how_stkae with_drea"
                 >
