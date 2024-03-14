@@ -13,10 +13,7 @@ function App() {
         <Toaster />
         <Header />
 
-        <Routes>
-          <Route path="/" element={<Staking_page />} />
-          {/* <Route path="/staking_page" element={<Staking_page />} /> */}
-        </Routes>
+        <Staking_page/>
 
         <Footer />
       </div>

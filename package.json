@@ -1,5 +1,6 @@
 {
   "name": "eth",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -30,7 +31,7 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build"
+    "build": "vite build --base /staking-test/"
   },
   "eslintConfig": {
     "extends": [
